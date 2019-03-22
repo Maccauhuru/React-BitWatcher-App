@@ -67,161 +67,125 @@ module.exports =
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 6);
 /******/ })
 /************************************************************************/
-/******/ ({
+/******/ ([
+/* 0 */
+/***/ (function(module, exports) {
 
-/***/ "./components/Layout.js":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_head__ = __webpack_require__("next/head");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_head___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_head__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Navigation__ = __webpack_require__("./components/Navigation.js");
-var _jsxFileName = "C:\\Users\\Simbatronix\\Desktop\\AMBITION 2023\\Programming\\Traversy-Projects\\bitwatcher\\components\\Layout.js";
-
-
-
-
-var Layout = function Layout(props) {
-  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_head___default.a, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("title", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    }
-  }, "BitWatcher App"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
-    rel: "stylesheet",
-    href: "https://bootswatch.com/4/flatly/bootstrap.min.css",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    }
-  })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__Navigation__["a" /* default */], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    }
-  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "container",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    }
-  }, props.children));
-};
-
-/* harmony default export */ __webpack_exports__["a"] = (Layout);
+module.exports = require("react");
 
 /***/ }),
-
-/***/ "./components/Navigation.js":
+/* 1 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link__ = __webpack_require__("next/link");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_link__);
-var _jsxFileName = "C:\\Users\\Simbatronix\\Desktop\\AMBITION 2023\\Programming\\Traversy-Projects\\bitwatcher\\components\\Navigation.js";
+
+// EXTERNAL MODULE: external "react"
+var external__react_ = __webpack_require__(0);
+var external__react__default = /*#__PURE__*/__webpack_require__.n(external__react_);
+
+// EXTERNAL MODULE: external "next/head"
+var head_ = __webpack_require__(2);
+var head__default = /*#__PURE__*/__webpack_require__.n(head_);
+
+// EXTERNAL MODULE: external "next/link"
+var link_ = __webpack_require__(3);
+var link__default = /*#__PURE__*/__webpack_require__.n(link_);
+
+// CONCATENATED MODULE: ./components/Navigation.js
 
 
 
-var Navigation = function Navigation() {
-  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("nav", {
-    className: "navbar navbar-expand navbar-dark bg-dark mb-4",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "container",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+var Navigation_Navigation = function Navigation() {
+  return external__react__default.a.createElement("nav", {
+    className: "navbar navbar-expand navbar-dark bg-dark mb-4"
+  }, external__react__default.a.createElement("div", {
+    className: "container"
+  }, external__react__default.a.createElement("a", {
     className: "navbar-brand",
-    href: "#",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    }
-  }, "BitWatcher"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "collapse navbar-collapse",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("ul", {
-    className: "navbar-nav ml-auto",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
-    className: "nav-item",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
-    href: "/",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    className: "nav-link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    }
-  }, "Home"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
-    className: "nav-item",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
-    href: "/about",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    className: "nav-link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14
-    }
+    href: "#"
+  }, "BitWatcher"), external__react__default.a.createElement("div", {
+    className: "collapse navbar-collapse"
+  }, external__react__default.a.createElement("ul", {
+    className: "navbar-nav ml-auto"
+  }, external__react__default.a.createElement("li", {
+    className: "nav-item"
+  }, external__react__default.a.createElement(link__default.a, {
+    href: "/"
+  }, external__react__default.a.createElement("a", {
+    className: "nav-link"
+  }, "Home"))), external__react__default.a.createElement("li", {
+    className: "nav-item"
+  }, external__react__default.a.createElement(link__default.a, {
+    href: "/about"
+  }, external__react__default.a.createElement("a", {
+    className: "nav-link"
   }, "About")))))));
 };
 
-/* harmony default export */ __webpack_exports__["a"] = (Navigation);
+/* harmony default export */ var components_Navigation = (Navigation_Navigation);
+// CONCATENATED MODULE: ./components/Layout.js
+
+
+
+
+var Layout_Layout = function Layout(props) {
+  return external__react__default.a.createElement("div", null, external__react__default.a.createElement(head__default.a, null, external__react__default.a.createElement("title", null, "BitWatcher App"), external__react__default.a.createElement("link", {
+    rel: "stylesheet",
+    href: "https://bootswatch.com/4/flatly/bootstrap.min.css"
+  })), external__react__default.a.createElement(components_Navigation, null), external__react__default.a.createElement("div", {
+    className: "container"
+  }, props.children));
+};
+
+/* harmony default export */ var components_Layout = __webpack_exports__["a"] = (Layout_Layout);
 
 /***/ }),
+/* 2 */
+/***/ (function(module, exports) {
 
-/***/ "./components/Rates.js":
+module.exports = require("next/head");
+
+/***/ }),
+/* 3 */
+/***/ (function(module, exports) {
+
+module.exports = require("next/link");
+
+/***/ }),
+/* 4 */,
+/* 5 */,
+/* 6 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(7);
+
+
+/***/ }),
+/* 7 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-var _jsxFileName = "C:\\Users\\Simbatronix\\Desktop\\AMBITION 2023\\Programming\\Traversy-Projects\\bitwatcher\\components\\Rates.js";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
+// EXTERNAL MODULE: external "@babel/runtime/regenerator"
+var regenerator_ = __webpack_require__(8);
+var regenerator__default = /*#__PURE__*/__webpack_require__.n(regenerator_);
+
+// EXTERNAL MODULE: external "react"
+var external__react_ = __webpack_require__(0);
+var external__react__default = /*#__PURE__*/__webpack_require__.n(external__react_);
+
+// EXTERNAL MODULE: external "isomorphic-unfetch"
+var external__isomorphic_unfetch_ = __webpack_require__(9);
+var external__isomorphic_unfetch__default = /*#__PURE__*/__webpack_require__.n(external__isomorphic_unfetch_);
+
+// EXTERNAL MODULE: ./components/Layout.js + 1 modules
+var Layout = __webpack_require__(1);
+
+// CONCATENATED MODULE: ./components/Rates.js
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -238,7 +202,7 @@ function _assertThisInitialized(self) { if (self === void 0) { throw new Referen
 
 
 
-var Rates =
+var Rates_Rates =
 /*#__PURE__*/
 function (_Component) {
   _inherits(Rates, _Component);
@@ -272,135 +236,50 @@ function (_Component) {
       var list = '';
 
       if (this.state.currency === 'USD') {
-        list = __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
-          className: "list-group-item",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 11
-          }
-        }, "Bitcoin rate for ", this.props.bpi.USD.description, ": ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
-          "class": "badge badge-primary",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 12
-          }
-        }, this.props.bpi.USD.code), " ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("strong", {
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 12
-          }
-        }, this.props.bpi.USD.rate));
+        list = external__react__default.a.createElement("li", {
+          className: "list-group-item"
+        }, "Bitcoin rate for ", this.props.bpi.USD.description, ": ", external__react__default.a.createElement("span", {
+          "class": "badge badge-primary"
+        }, this.props.bpi.USD.code), " ", external__react__default.a.createElement("strong", null, this.props.bpi.USD.rate));
       } else if (this.state.currency === 'GBP') {
-        list = __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
-          className: "list-group-item",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 14
-          }
-        }, "Bitcoin rate for ", this.props.bpi.GBP.description, ": ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
-          "class": "badge badge-primary",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 15
-          }
-        }, this.props.bpi.GBP.code), " ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("strong", {
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 15
-          }
-        }, this.props.bpi.GBP.rate));
+        list = external__react__default.a.createElement("li", {
+          className: "list-group-item"
+        }, "Bitcoin rate for ", this.props.bpi.GBP.description, ": ", external__react__default.a.createElement("span", {
+          "class": "badge badge-primary"
+        }, this.props.bpi.GBP.code), " ", external__react__default.a.createElement("strong", null, this.props.bpi.GBP.rate));
       } else if (this.state.currency === 'EUR') {
-        list = __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
-          className: "list-group-item",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 17
-          }
-        }, "Bitcoin rate for ", this.props.bpi.EUR.description, ": ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
-          "class": "badge badge-primary",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 18
-          }
-        }, this.props.bpi.EUR.code), " ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("strong", {
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 18
-          }
-        }, this.props.bpi.EUR.rate));
+        list = external__react__default.a.createElement("li", {
+          className: "list-group-item"
+        }, "Bitcoin rate for ", this.props.bpi.EUR.description, ": ", external__react__default.a.createElement("span", {
+          "class": "badge badge-primary"
+        }, this.props.bpi.EUR.code), " ", external__react__default.a.createElement("strong", null, this.props.bpi.EUR.rate));
       }
 
-      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 22
-        }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("ul", {
-        className: "list-group",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 23
-        }
-      }, list), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 26
-        }
-      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("select", {
+      return external__react__default.a.createElement("div", null, external__react__default.a.createElement("ul", {
+        className: "list-group"
+      }, list), external__react__default.a.createElement("br", null), external__react__default.a.createElement("select", {
         onChange: function onChange(e) {
           return _this2.setState({
             currency: e.target.value
           });
         },
-        className: "form-control",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 27
-        }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("option", {
-        value: "USD",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 28
-        }
-      }, "USD"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("option", {
-        value: "GBP",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 29
-        }
-      }, "GBP"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("option", {
-        value: "EUR",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 30
-        }
+        className: "form-control"
+      }, external__react__default.a.createElement("option", {
+        value: "USD"
+      }, "USD"), external__react__default.a.createElement("option", {
+        value: "GBP"
+      }, "GBP"), external__react__default.a.createElement("option", {
+        value: "EUR"
       }, "EUR")));
     }
   }]);
 
   return Rates;
-}(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
+}(external__react_["Component"]);
 
-/* harmony default export */ __webpack_exports__["a"] = (Rates);
+/* harmony default export */ var components_Rates = (Rates_Rates);
+// CONCATENATED MODULE: ./pages/index.js
 
-/***/ }),
-
-/***/ "./pages/index.js":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_runtime_regenerator__ = __webpack_require__("@babel/runtime/regenerator");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_runtime_regenerator___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_runtime_regenerator__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react__ = __webpack_require__("react");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_unfetch__ = __webpack_require__("isomorphic-unfetch");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_unfetch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_isomorphic_unfetch__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_Layout__ = __webpack_require__("./components/Layout.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_Rates_js__ = __webpack_require__("./components/Rates.js");
-
-var _jsxFileName = "C:\\Users\\Simbatronix\\Desktop\\AMBITION 2023\\Programming\\Traversy-Projects\\bitwatcher\\pages\\index.js";
 
 
 function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function step(key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } } function _next(value) { step("next", value); } function _throw(err) { step("throw", err); } _next(); }); }; }
@@ -409,53 +288,19 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 
 
 
-var Index = function Index(props) {
-  return __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__components_Layout__["a" /* default */], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    }
-  }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    }
-  }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("h1", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    }
-  }, "Welcome to BitWatcher"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    }
-  }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    }
-  }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("strong", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    }
-  }, "Check current Bitcoin rate")), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__components_Rates_js__["a" /* default */], {
-    bpi: props.bpi,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    }
+var pages_Index = function Index(props) {
+  return external__react__default.a.createElement(Layout["a" /* default */], null, external__react__default.a.createElement("div", null, external__react__default.a.createElement("h1", null, "Welcome to BitWatcher"), external__react__default.a.createElement("br", null), external__react__default.a.createElement("p", null, external__react__default.a.createElement("strong", null, "Check current Bitcoin rate")), external__react__default.a.createElement(components_Rates, {
+    bpi: props.bpi
   })));
 };
 
-Index.getInitialProps =
+pages_Index.getInitialProps =
 /*#__PURE__*/
 _asyncToGenerator(
 /*#__PURE__*/
-__WEBPACK_IMPORTED_MODULE_0__babel_runtime_regenerator___default.a.mark(function _callee() {
+regenerator__default.a.mark(function _callee() {
   var res, data;
-  return __WEBPACK_IMPORTED_MODULE_0__babel_runtime_regenerator___default.a.wrap(function _callee$(_context) {
+  return regenerator__default.a.wrap(function _callee$(_context) {
     while (1) {
       switch (_context.prev = _context.next) {
         case 0:
@@ -480,52 +325,19 @@ __WEBPACK_IMPORTED_MODULE_0__babel_runtime_regenerator___default.a.mark(function
     }
   }, _callee, this);
 }));
-/* harmony default export */ __webpack_exports__["default"] = (Index);
+/* harmony default export */ var pages = __webpack_exports__["default"] = (pages_Index);
 
 /***/ }),
-
-/***/ 3:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__("./pages/index.js");
-
-
-/***/ }),
-
-/***/ "@babel/runtime/regenerator":
+/* 8 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/regenerator");
 
 /***/ }),
-
-/***/ "isomorphic-unfetch":
+/* 9 */
 /***/ (function(module, exports) {
 
 module.exports = require("isomorphic-unfetch");
 
-/***/ }),
-
-/***/ "next/head":
-/***/ (function(module, exports) {
-
-module.exports = require("next/head");
-
-/***/ }),
-
-/***/ "next/link":
-/***/ (function(module, exports) {
-
-module.exports = require("next/link");
-
-/***/ }),
-
-/***/ "react":
-/***/ (function(module, exports) {
-
-module.exports = require("react");
-
 /***/ })
-
-/******/ });
-//# sourceMappingURL=index.js.map
+/******/ ]);

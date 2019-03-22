@@ -70,218 +70,114 @@ module.exports =
 /******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
-/******/ ({
+/******/ ([
+/* 0 */
+/***/ (function(module, exports) {
 
-/***/ "./components/Layout.js":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_head__ = __webpack_require__("next/head");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_head___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_head__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Navigation__ = __webpack_require__("./components/Navigation.js");
-var _jsxFileName = "C:\\Users\\Simbatronix\\Desktop\\AMBITION 2023\\Programming\\Traversy-Projects\\bitwatcher\\components\\Layout.js";
-
-
-
-
-var Layout = function Layout(props) {
-  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_head___default.a, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("title", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    }
-  }, "BitWatcher App"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
-    rel: "stylesheet",
-    href: "https://bootswatch.com/4/flatly/bootstrap.min.css",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    }
-  })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__Navigation__["a" /* default */], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    }
-  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "container",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    }
-  }, props.children));
-};
-
-/* harmony default export */ __webpack_exports__["a"] = (Layout);
+module.exports = require("react");
 
 /***/ }),
-
-/***/ "./components/Navigation.js":
+/* 1 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link__ = __webpack_require__("next/link");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_link__);
-var _jsxFileName = "C:\\Users\\Simbatronix\\Desktop\\AMBITION 2023\\Programming\\Traversy-Projects\\bitwatcher\\components\\Navigation.js";
+
+// EXTERNAL MODULE: external "react"
+var external__react_ = __webpack_require__(0);
+var external__react__default = /*#__PURE__*/__webpack_require__.n(external__react_);
+
+// EXTERNAL MODULE: external "next/head"
+var head_ = __webpack_require__(2);
+var head__default = /*#__PURE__*/__webpack_require__.n(head_);
+
+// EXTERNAL MODULE: external "next/link"
+var link_ = __webpack_require__(3);
+var link__default = /*#__PURE__*/__webpack_require__.n(link_);
+
+// CONCATENATED MODULE: ./components/Navigation.js
 
 
 
-var Navigation = function Navigation() {
-  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("nav", {
-    className: "navbar navbar-expand navbar-dark bg-dark mb-4",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "container",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+var Navigation_Navigation = function Navigation() {
+  return external__react__default.a.createElement("nav", {
+    className: "navbar navbar-expand navbar-dark bg-dark mb-4"
+  }, external__react__default.a.createElement("div", {
+    className: "container"
+  }, external__react__default.a.createElement("a", {
     className: "navbar-brand",
-    href: "#",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    }
-  }, "BitWatcher"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "collapse navbar-collapse",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("ul", {
-    className: "navbar-nav ml-auto",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
-    className: "nav-item",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
-    href: "/",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    className: "nav-link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    }
-  }, "Home"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
-    className: "nav-item",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
-    href: "/about",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    className: "nav-link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14
-    }
+    href: "#"
+  }, "BitWatcher"), external__react__default.a.createElement("div", {
+    className: "collapse navbar-collapse"
+  }, external__react__default.a.createElement("ul", {
+    className: "navbar-nav ml-auto"
+  }, external__react__default.a.createElement("li", {
+    className: "nav-item"
+  }, external__react__default.a.createElement(link__default.a, {
+    href: "/"
+  }, external__react__default.a.createElement("a", {
+    className: "nav-link"
+  }, "Home"))), external__react__default.a.createElement("li", {
+    className: "nav-item"
+  }, external__react__default.a.createElement(link__default.a, {
+    href: "/about"
+  }, external__react__default.a.createElement("a", {
+    className: "nav-link"
   }, "About")))))));
 };
 
-/* harmony default export */ __webpack_exports__["a"] = (Navigation);
-
-/***/ }),
-
-/***/ "./pages/about.js":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_Layout__ = __webpack_require__("./components/Layout.js");
-var _jsxFileName = "C:\\Users\\Simbatronix\\Desktop\\AMBITION 2023\\Programming\\Traversy-Projects\\bitwatcher\\pages\\about.js";
+/* harmony default export */ var components_Navigation = (Navigation_Navigation);
+// CONCATENATED MODULE: ./components/Layout.js
 
 
 
-var About = function About() {
-  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__components_Layout__["a" /* default */], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 4
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h1", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    }
-  }, "About BitWatcher"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    }
-  }, "Track your Bitcoin rates easily!")));
+
+var Layout_Layout = function Layout(props) {
+  return external__react__default.a.createElement("div", null, external__react__default.a.createElement(head__default.a, null, external__react__default.a.createElement("title", null, "BitWatcher App"), external__react__default.a.createElement("link", {
+    rel: "stylesheet",
+    href: "https://bootswatch.com/4/flatly/bootstrap.min.css"
+  })), external__react__default.a.createElement(components_Navigation, null), external__react__default.a.createElement("div", {
+    className: "container"
+  }, props.children));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (About);
+/* harmony default export */ var components_Layout = __webpack_exports__["a"] = (Layout_Layout);
 
 /***/ }),
-
-/***/ 4:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__("./pages/about.js");
-
-
-/***/ }),
-
-/***/ "next/head":
+/* 2 */
 /***/ (function(module, exports) {
 
 module.exports = require("next/head");
 
 /***/ }),
-
-/***/ "next/link":
+/* 3 */
 /***/ (function(module, exports) {
 
 module.exports = require("next/link");
 
 /***/ }),
+/* 4 */
+/***/ (function(module, exports, __webpack_require__) {
 
-/***/ "react":
-/***/ (function(module, exports) {
+module.exports = __webpack_require__(5);
 
-module.exports = require("react");
+
+/***/ }),
+/* 5 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_Layout__ = __webpack_require__(1);
+
+
+
+var About = function About() {
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__components_Layout__["a" /* default */], null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h1", null, "About BitWatcher"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", null, "Track your Bitcoin rates easily!")));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (About);
 
 /***/ })
-
-/******/ });
-//# sourceMappingURL=about.js.map
+/******/ ]);

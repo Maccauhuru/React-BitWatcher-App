@@ -1,1 +1,8 @@
 node_modules
+assets
+components
+pages
+.next/static/54*
+.next/static/25*
+.next/static/BUILD_ID
+.next/static/build-manifest.json
